@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questão 2</title>
+    <link rel="stylesheet" type="text/css" href="questão 2.css" media="screen" />
+</head>
+<body>
+    <script src="questão 2.js"></script>
+
+    <img src="C:\Users\Rafael Campos\OneDrive\Área de Trabalho\projetos js\constr. de pag. web\AD2\APDVOtica_LogoTopo.png" class="imgLogo">
+    
+    <address class="ender">
+        <p>Avenida Parcelada, 123</p>
+        <p>Tel: (21) 91234-5678</p>
+        <p><u>contato@apdv.com.br</u></p>
+    </address>
+
+    <hr color="#FFEE66" width="100%">
+
+    <nav class="menu">
+        <div align="center">
+            <a href="file:///C:/Users/Rafael%20Campos/OneDrive/%C3%81rea%20de%20Trabalho/projetos%20js/constr.%20de%20pag.%20web/AD2/pginicial.html" class="botao">inicial</a>
+
+            <a href="file:///C:/Users/Rafael%20Campos/OneDrive/%C3%81rea%20de%20Trabalho/projetos%20js/constr.%20de%20pag.%20web/AD2/quest%C3%A3o%201.html" class="botao">lentes</a>
+
+            <a href="file:///C:/Users/Rafael%20Campos/OneDrive/%C3%81rea%20de%20Trabalho/projetos%20js/constr.%20de%20pag.%20web/AD2/quest%C3%A3o%202.html" class="botao">armações</a>
+            
+            <a href="file:///C:/Users/Rafael%20Campos/OneDrive/%C3%81rea%20de%20Trabalho/projetos%20js/constr.%20de%20pag.%20web/AD2/quest%C3%A3o%204.html" class="botao">compras</a>
+        </div>
+    </nav>
+
+    <hr color="#FFEE66">
+
+    <p style="font-size: 20px;">Armações para Óculos de Grau</p>
+    <p>Todos em 10x sem juros no cartão</p>
+
+    <table border="1" width="100%" class=bordaTab>
+        <tr class=titulo>
+            <th colspan="3">
+                Armações
+            </th>
+        </tr>
+
+        <tr>
+                <td class=linTH>
+                    gênero
+                </td>
+
+                <td class=linTH>
+                    marca
+                </td>
+
+                <td class=linTH colspan="2">
+                    descrição
+                </td>
+        </tr>
+
+        <tr>
+            <td rowspan="4" class=colTH>
+                Masculino
+            </td>
+
+            <tr>
+                <td class=tabOculos id="Oakley Wingfold">
+                    <div onmouseover="txt(1)" onmouseout="mouseOut()">
+                        <a style="color: #005599;">Oakley Wingfold</a>
+                    </div>
+                </td>
+
+                <td rowspan="6"  class=tabOculos id="descrição">
+                    <center>
+                        <div>
+                            <strong><span id="nome" style="height: 60px; font-display: 18px;"></span></strong>
+                        </div>
+                        <div style="width: 100px; height: 43px; border: solid 2px; border-color: #226699; padding: 12px; background-color: white; margin-left: 5px; margin-right: 5px;">
+                            <img id="img">
+                        </div>
+                        <div>
+                            <strong><span id="sexo" style="height: 60px;"></span></strong>
+                        </div>
+                        <div>
+                            <strong><span id="preço" style="height: 60px;"></span></strong><strong><span id="preço1" style="height: 60px;"></span></strong>
+                        </div>
+                    </center>
+                </td>
+            </tr>
+
+            <tr>
+                <td class=tabOculos id="Persol">
+                    <div onmouseover="txt(2)" onmouseout="mouseOut()">
+                        <a style="color: #005599;">Persol</a>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class=tabOculos id="Ray-ban Round">
+                    <div onmouseover="txt(3)" onmouseout="mouseOut()">
+                        <a style="color: #005599;">Ray-ban Round</a>
+                    </div>
+                </td>
+            </tr>
+        </tr>
+
+        <tr>
+            <td rowspan="3" class=colTH>
+                Feminino
+            </td>
+
+            <tr>
+                <td class=tabOculos id="Kipling">
+                    <div onmouseover="txt(4)" onmouseout="mouseOut()">
+                        <a style="color: #005599;">Kipling</a>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class=tabOculos id="Michael Kors">
+                    <div onmouseover="txt(5)" onmouseout="mouseOut()">
+                        <a style="color: #005599;">Michael Kors</a>
+                    </div>
+                </td>
+            </tr>
+        </tr>
+    </table>
+</body>
+</html>
