@@ -125,7 +125,71 @@
     </script>
 </head>
 <body>
-    <script src="questão 2.js"></script>
+    <script>
+        var img = ['M_Oakley_100.jpg','M_Persol_100.jpg','M_Ray-ban_100.jpg','F_Kipling_100.jpg','F_MichaelKors_100.jpg']
+
+        function txt(param){
+            switch(param){
+                case 1:
+                    var preço1 = "855,00";
+                    var preçotxt = "Preço: R$ ";
+                    document.getElementById('nome').innerHTML = "Oakley Wingfold";
+                    document.getElementById('sexo').innerHTML = "Masculino";
+                    document.getElementById('preço').innerHTML = preçotxt;
+                    document.getElementById('preço1').innerHTML = preço1;
+                    document.getElementById('preço1').style.color = 'red';
+                    document.getElementById('img').src = img[0];
+                    break;
+                case 2:
+                    var preço1 = "1377,00";
+                    var preçotxt = "Preço: R$ ";
+                    document.getElementById('nome').innerHTML = "Persol";
+                    document.getElementById('sexo').innerHTML = "Masculino";
+                    document.getElementById('preço').innerHTML = preçotxt;
+                    document.getElementById('preço1').innerHTML = preço1;
+                    document.getElementById('preço1').style.color = 'red';
+                    document.getElementById('img').src = img[1];
+                    break;
+                case 3:
+                    var preço1 = "666,00";
+                    var preçotxt = "Preço: R$ ";
+                    document.getElementById('nome').innerHTML="Ray-ban Round";
+                    document.getElementById('sexo').innerHTML = "Masculino";
+                    document.getElementById('preço').innerHTML = preçotxt;
+                    document.getElementById('preço1').innerHTML = preço1;
+                    document.getElementById('preço1').style.color = 'red';
+                    document.getElementById('img').src = img[2];
+                    break;
+                case 4:
+                    var preço1 = "423,00";
+                    var preçotxt = "Preço: R$ ";
+                    document.getElementById('nome').innerHTML = "Kipling";
+                    document.getElementById('sexo').innerHTML = "Feminino";
+                    document.getElementById('preço').innerHTML = preçotxt;
+                    document.getElementById('preço1').innerHTML = preço1;
+                    document.getElementById('preço1').style.color = 'red';
+                    document.getElementById('img').src = img[3];
+                    break;
+                case 5:
+                    var preço1 = "684,00";
+                    var preçotxt = "Preço: R$ ";
+                    document.getElementById('nome').innerHTML = "Michael Kors";
+                    document.getElementById('sexo').innerHTML = "Feminino";
+                    document.getElementById('preço').innerHTML = preçotxt;
+                    document.getElementById('preço1').innerHTML = preço1;
+                    document.getElementById('preço1').style.color = 'red';
+                    document.getElementById('img').src = img[4];
+                    break;
+            }
+        };
+        function mouseOut() {
+            document.getElementById("nome").innerHTML = "";
+            document.getElementById("img").src = "";
+            document.getElementById("sexo").innerHTML = "";
+            document.getElementById("preço").innerHTML = "";
+            document.getElementById("preço1").innerHTML = "";
+        };
+    </script>
 
     <img src="C:\Users\Rafael Campos\OneDrive\Área de Trabalho\projetos js\constr. de pag. web\AD2\APDVOtica_LogoTopo.png" class="imgLogo">
     
